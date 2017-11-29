@@ -260,6 +260,7 @@ export default class SkillMap extends Component {
         <div className="header" style={{ height: '70px' }}>
           <div className="header-content">
             <div className="left-part">
+              <img src={require('./mic.svg')} alt="microphone" style={{width: '16px'}}/>
               <span className="name">{this.props.whoseTurn},</span>
               <span> it's your turn to speak</span>
             </div>
