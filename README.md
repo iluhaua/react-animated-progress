@@ -1,6 +1,11 @@
 ## Skill Map
 
 Usage:
+Make inport:
+```
+import SkillMap from "../../components/SkillMap/SkillMap.js";
+```
+
 ```
 <div>
   <SkillMap currentStage={1} progress={10} whoseTurn="Zain Amro" speaker="David" upnext="Laura"/>
